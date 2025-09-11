@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Contacts</title>
+  <!-- Link to the external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Accessible site header -->
+  <header role="banner" class="header">
+    <h1>Family Contacts</h1>
+  </header>
+  
+  <!-- Main container for contact cards -->
+  <main role="main" id="contactsContainer" class="contacts-grid" aria-live="polite">
+    <!-- Cards are injected here by app.js -->
+  </main>
+
+  <!-- Page footer -->
+  <footer role="contentinfo" class="footer">
+    <p>&copy; <span id="year"></span> Family Contacts. All rights reserved.</p>
+  </footer>
+
+  <!--
+    Load the contacts data. When the site is opened from the file system
+    (e.g. file://) browsers restrict fetching JSON files due to CORS.
+    Including the contacts in a small JavaScript file avoids that
+    limitation. On GitHub Pages or other servers the JSON file can
+    still be fetched via fetch().
+  -->
+  <script src="data/contacts.js"></script>
+  <!-- Application script to render contacts and handle state -->
+  <script src="app.js" defer></script>
+</body>
+</html>

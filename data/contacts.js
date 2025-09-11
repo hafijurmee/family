@@ -1,0 +1,31 @@
+/*
+ * Embedded contacts data used when the site is opened from the local
+ * file system. Browsers block fetch() from reading JSON files with
+ * the file:// scheme, so this script defines a global variable
+ * containing the same data. Each entry includes a name, phone and an
+ * image pointing at the local assets folder. Feel free to modify
+ * these values to customise your contact list.
+ */
+
+window.contactsData = [
+  { "name": "Abbu",   "phone": "+8801610204576", "image": "assets/avatar.png" },
+  { "name": "Ammu",     "phone": "+8801686171066", "image": "assets/avatar.png" },
+  { "name": "Shashur Abbu", "phone": "+8801339436432", "image": "assets/avatar.png" },
+  { "name": "Shashuri Ammu",   "phone": "+8801709767386", "image": "assets/avatar.png" },
+  { "name": "Esma",  "phone": "+8801600257379", "image": "assets/avatar.png" },
+  { "name": "Aklima",   "phone": "+8801307269561", "image": "assets/avatar.png" },
+  { "name": "Sajinur Uncle",  "phone": "+8801686692620", "image": "assets/avatar.png" },
+  { "name": "Abbu",   "phone": "+8801610204576", "image": "assets/avatar.png" },
+  { "name": "Ammu",     "phone": "+8801686171066", "image": "assets/avatar.png" },
+  { "name": "Shashur Abbu", "phone": "+8801339436432", "image": "assets/avatar.png" },
+  { "name": "Shashuri Ammu",   "phone": "+8801709767386", "image": "assets/avatar.png" },
+  { "name": "Esma",  "phone": "+8801600257379", "image": "assets/avatar.png" },
+  { "name": "Aklima",   "phone": "+8801307269561", "image": "assets/avatar.png" },
+  { "name": "Sajinur Uncle", "phone": "+8801686692620", "image": "assets/avatar.png" },
+  { "name": "Abbu",   "phone": "+8801610204576", "image": "assets/avatar.png" },
+  { "name": "Ammu",     "phone": "+8801686171066", "image": "assets/avatar.png" },
+  { "name": "Shashur Abbu", "phone": "+8801339436432", "image": "assets/avatar.png" },
+  { "name": "Shashuri Ammu",   "phone": "+8801709767386", "image": "assets/avatar.png" },
+  { "name": "Esma",  "phone": "+8801600257379", "image": "assets/avatar.png" },
+  { "name": "Aklima",   "phone": "+8801307269561", "image": "assets/avatar.png" },
+];
